@@ -1,0 +1,56 @@
+body {
+    background: rgb(165,134,185);
+    background: radial-gradient(circle, rgba(165,134,185,1) 7%, rgba(133,145,158,1) 100%);
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    margin: 4px;
+}
+
+.btn-primary {
+    background-color: rgb(104, 150, 165);
+    border-color:  rgb(104, 150, 165);
+}
+
+.btn-primary-operation {
+    background-color: rgb(189, 186, 39);
+    border-color:  rgb(189, 186, 39);
+}
+
+.form-control {
+    height: 49px;
+}
+
+.input-group {
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+.number-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column wrap;
+    height: 60vh;
+}
+
+.calculator-container {
+    background-color: rgb(68, 66, 66);
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.button-row {
+    justify-content: space-between;
+}
