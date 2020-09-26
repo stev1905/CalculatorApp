@@ -4,7 +4,7 @@ View App <a href="https://stev1905.github.io/CalculatorApp/">here</a>
 
 <i>Calculator App is written in Vanilla Javascript, HTML & CSS</i>
 
-![CalculatorApp](https://user-images.githubusercontent.com/13443788/94350135-35b26c00-0019-11eb-97a7-ee21a0434231.JPG)
+![CalculatorApp2](https://user-images.githubusercontent.com/13443788/94350238-55965f80-001a-11eb-9f17-515894015455.JPG)
 
 <h1>Summary</h1>
 <p><i></i></p>
