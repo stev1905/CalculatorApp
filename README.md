@@ -7,7 +7,7 @@ View App <a href="https://stev1905.github.io/CalculatorApp/">here</a>
 ![CalculatorApp2](https://user-images.githubusercontent.com/13443788/94350238-55965f80-001a-11eb-9f17-515894015455.JPG)
 
 <h1>Summary</h1>
-<p><i>This simple calculator application allows the user to add, subtract, divide and multiple numbers. The calculator can take decimal inputs and perform continuous functions (Ex. 1 + 2 + 3 * 4). Though the front-end was fairly simple, the challenge in creating this calculator was accounting for various different test scenarios when conducting calculations. Click the above link and try out some calculations!</i></p>
+<p><i>This simple calculator application allows the user to add, subtract, divide, and multiple inputs. The calculator can take decimal, whole number inputs, and perform continuous functions (Ex. 1 + 2 + 3 * 4). Though the front-end was fairly simple to build, the challenge in creating this calculator was accounting for various test scenarios when conducting calculations. Click the above link and try out some equations!</i></p>
 
 <h1>Author</h1>
 <ul>
