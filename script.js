@@ -1,5 +1,5 @@
-let button = document.getElementsByClassName('btn btn-primary')[0];
-let displayField = document.getElementsByClassName('form-control')[0];
+const displayField = document.getElementById('calculatorDisplay');
+
 let displayNum = '';
 let firstNumber = null;
 let secondNumber = null;
@@ -49,7 +49,8 @@ const handleOperator = (e) => {
         operator.push('/');
     } 
     if(firstNumber !== null && secondNumber !== null) {
-        firstNumber = calculateNumbers();
+        console.log('continuous calculation')
+        firstNumber = evaluateNumbers(operator[operator.length - 2]);
         secondNumber = null;
         displayField.value = firstNumber;
     }
@@ -70,7 +71,7 @@ const handleOperatorOnKeypress = (e) => {
         operator.push('/');
     } 
     if(firstNumber !== null && secondNumber !== null) {
-        firstNumber = calculateNumbers();
+        firstNumber = evaluateNumbers(operator[operator.length - 2]);
         secondNumber = null;
         displayField.value = firstNumber;
     }
@@ -82,11 +83,7 @@ document.getElementById('multiply').addEventListener('click', handleOperator);
 document.getElementById('divide').addEventListener('click', handleOperator);
 
 const calculateNumbers = () => {
-    if(operator.length === 1) {
-        return evaluateNumbers(operator[operator.length - 1]);
-    } else if(operator.length > 1) {
-        return evaluateNumbers(operator[operator.length - 2]);
-    }
+    return evaluateNumbers(operator[operator.length - 1]);
 }
 
 const evaluateNumbers = (operation) => {
