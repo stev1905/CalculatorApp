@@ -7,7 +7,8 @@ body {
 h1 {
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
     text-decoration: underline;
 }
 
@@ -51,7 +52,7 @@ button {
     justify-content: center;
     align-content: center;
     flex-flow: column wrap;
-    height: 60vh;
+    height: 50vh;
 }
 
 .calculator-container {
