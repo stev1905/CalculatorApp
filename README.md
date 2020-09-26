@@ -2,9 +2,9 @@
 View App <a href="">here</a>
 <br>
 
-<i>Calculator app is written in Vanilla Javascript, HTML & CSS</i>
+<i>Calculator App is written in Vanilla Javascript, HTML & CSS</i>
 
-![ExpenseTracker](https://user-images.githubusercontent.com/13443788/91929091-a29d4500-ecab-11ea-9dc0-8feba8ebb640.JPG)
+![CalculatorApp](https://user-images.githubusercontent.com/13443788/94350135-35b26c00-0019-11eb-97a7-ee21a0434231.JPG)
 
 <h1>Summary</h1>
 <p><i></i></p>
